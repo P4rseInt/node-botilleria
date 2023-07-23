@@ -19,6 +19,6 @@ function createProduct(newProduct) {
 }
 
 module.exports = {
-    // getAllProducts,
+    getAllProducts,
     createProduct,
 };

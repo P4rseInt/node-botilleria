@@ -13,6 +13,7 @@ function getAllProducts(callback) {
 }
 
 function createProduct(newProduct) {
+    const sql = 'INSERT INTO products VALUES()'
     const products = {...newProduct, id: products.length + 1};
     products.push(products);
     return products;
